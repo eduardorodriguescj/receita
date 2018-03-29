@@ -1,0 +1,239 @@
+.menu{
+  background: black;
+ height:50px;
+}
+
+.menu .menu-list, .menu .sub-menu{
+  list-style: none;
+}
+
+.menu a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing:0.2em;
+}
+
+.menu  .menu-list  li{
+  float: left;
+  position: relative;
+}
+
+.menu  .menu-list  li > a {
+  padding: 1px;
+  margin: 0 5px;
+  background: black;
+  
+}
+
+.menu .menu-list  li:hover a {
+  background: black;
+}
+
+.menu  .menu-list  li:hover  .sub-menu {
+  display: block;
+}
+
+.menu  .menu-list  li  .sub-menu {
+  position: absolute;
+  top: 80px;
+  left: 1px;
+  background: black;
+  min-width: 150px;
+  z-index: 1000;
+  display: none;
+}
+
+.menu  .menu-list  li  .sub-menu li  a {
+ padding: 10px 10px;
+ font-size:0.3em;
+ margin:0 0 0 -20px;
+}
+
+.menu:after {
+  content: '.';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+* {
+		padding:0px;
+		margin:0px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background: #CCCCCC url('../imagens/fundo.png') repeat-x;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
+header img{
+	width:100%;
+	height:500px;
+}
+header h1{
+	text-align:center;
+	font-size: 2.5em;
+	color:black;
+}
+
+
+nav li img{
+	width:310px;
+	height:95px;
+}
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+	font-family:Courier New;
+}
+
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*
+definição dos links
+*/
+a:link, a:visited {
+	color: #333;
+	background: gray;
+}
+
+nav  {
+	width:100%;
+	margin:auto;
+	background:white;
+	font-size: 1.4em;
+	position:relative;
+	}
+
+nav h1 {
+    color: #ccc;
+}
+
+nav ul{
+	padding: 10px;
+	margin: 0px 0px 0px 50px;
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+	
+	}
+
+nav li a {
+	float:top;
+	color: #333;
+	text-decoration: none;
+}
+
+nav li a:link,nav li a:visited{
+	background-color:black;
+	color:white;
+	font-family:Courier New;
+	font-size:22px;
+	letter-spacing: 3px;
+	}
+
+section{
+	margin: 0 auto;
+	padding: 10px;
+	width: 100%;
+	background: #fff;
+	border: 10px solid white;
+	overflow:hidden;
+}
+
+article, aside {
+	width: 400px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+}
+article {
+	float:right;
+	margin: 0 auto;
+	width:55%;
+}
+.article{
+	float:right;
+	margin: 10px 0 10px 0;
+	width:100%;
+}
+.article ol li{
+	font-size:1.9em;
+}
+article ul li{
+	font-size:1.2em;
+}
+article h2 {
+	font-size: 2.4em;
+	margin: 0 0 10px 0;
+	color:black;
+}
+article h3{
+	font-size:2.0em;
+	font-family:Courier New;
+}
+
+article ul {
+	margin: 20px 0 0 0;
+	font-size: 1.5em;
+}
+
+article ul  li {
+	margin: 0 0 10px 0;
+}
+#pave3{
+	width:100%;
+	
+}
+#pave2,#pave1,#pave{
+	width:133px;
+	height:120px;
+	float:left;
+	
+}
+aside {
+	float:left;
+	background: #eee;
+	overflow:hidden;
+}
+
+aside h1 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 20px 0;
+	padding: 5px;
+	color:black;
+}
+article h3 {
+	border-bottom: 5px solid #ccc;
+	margin: 0 0 20px 0;
+	padding: 5px;
+}
+footer {
+	clear: both;
+	background: black;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color:white;
+}
